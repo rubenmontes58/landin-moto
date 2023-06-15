@@ -1,0 +1,218 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+  
+
+  
+  nav {
+    background-color: #262121;
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+  }
+
+  
+  /* Estilos del banner */
+  
+  .banner {
+    background-image: url('https://images.unsplash.com/photo-1579041970412-923cb880d314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1vdG9zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+
+  
+  .central{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+
+
+
+  }
+  
+  /* Estilos del footer */
+
+footer {
+    background-image: url(https://images.unsplash.com/photo-1626102307114-88b57c3814a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fG1vdG9zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+  color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    width: 60%;
+  }
+  
+  .footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-right {
+    width: 30%;
+    
+  }
+  
+  .footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: rgb(220, 160, 160);
+  }
+  
+  .footer-right ul li {
+    margin-right: 10px;
+   
+  }
+  
+  .footer-right ul li a {
+    color: rgb(208, 181, 181);
+    font-size: 24px;
+    text-decoration: none;
+    
+  
+  }
+  
+  .footer-right ul li a:hover {
+    color: #ccc;
+  }
+  
+  
+/* Estilos del carrusel */
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .card {
+    width: 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 0 20px 20px;
+  }
+  
+
+
+  
+  
